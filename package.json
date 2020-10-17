@@ -1,0 +1,12 @@
+{
+  "name": "objdict",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Handling object-based dictionaries.",
+  "author": "Andrew McPherson <@ehgoodenough>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehgoodenough/objdict"
+  }
+}

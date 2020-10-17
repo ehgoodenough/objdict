@@ -1,6 +1,6 @@
 # Objdict #
 
-A javascript utility for [object-based](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) dictionaries of key-value pairs!
+A javascript utility for [object-based](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) dictionaries.
 
 ```
 const objdict = require("objdict")
