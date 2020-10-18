@@ -1,4 +1,4 @@
-# Objdict #
+# Objdict ![](https://github.com/ehgoodenough/objdict/workflows/Release/badge.svg) #
 
 A javascript utility for [object-based](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) dictionaries.
 

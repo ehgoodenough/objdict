@@ -1,6 +1,6 @@
 {
   "name": "objdict",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "description": "Handling object-based dictionaries.",
   "author": "Andrew McPherson <@ehgoodenough>",
