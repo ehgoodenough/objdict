@@ -16,7 +16,7 @@ export function merge() {
         }
         Object.keys(alphadict).forEach((key) => {
             omegadict[key] = alphadict[key]
-            if(omegadict[key] == undefined) {
+            if(omegadict[key] === undefined) {
                 delete omegadict[key]
             }
         })
