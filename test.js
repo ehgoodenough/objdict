@@ -48,6 +48,25 @@ describe("Objdict", function() {
                 "yellow": {"key": "yellow", "fruit": "banana"},
             })
         })
+        it("can combine two sets while keeping null values.", function() {
+            const set1 = {
+                "red": {"key": "red", "fruit": "apple"}, // apple will be replaced by strawberry
+                "blue": {"key": "blue", "fruit": "blueberry"}, // blueberry will be replaced by null
+                "green": {"key": "green", "fruit": "lime"},
+            }
+            const set2 = {
+                "red": {"key": "red", "fruit": "strawberry"},
+                "blue": null,
+                "yellow": {"key": "yellow", "fruit": "banana"},
+            }
+
+            Chai.expect(Objdict.merge(set1, set2)).to.deep.equal({
+                "red": {"key": "red", "fruit": "strawberry"},
+                "green": {"key": "green", "fruit": "lime"},
+                "yellow": {"key": "yellow", "fruit": "banana"},
+                "blue": null,
+            })
+        })
     })
 
     describe("Objdict.find", function() {
