@@ -1,5 +1,5 @@
 import Chai from "chai"
-import * as Objdict from "./main.js"
+import Objdict from "./main.js"
 
 describe("Objdict", function() {
     describe("Objdict.convert", function() {
