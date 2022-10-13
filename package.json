@@ -1,9 +1,9 @@
 {
   "name": "objdict",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "main.js",
-  "description": "Handling object-based dictionaries.",
-  "author": "Andrew McPherson <@ehgoodenough>",
+  "description": "A library for object-based dictionaries.",
+  "author": "Andrew Goodenough <@ehgoodenough>",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -13,11 +13,11 @@
     "type": "git",
     "url": "https://github.com/ehgoodenough/objdict"
   },
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^10.0.0"
-  },
-  "dependencies": {
-    "shortid": "^2.2.15"
   }
 }
