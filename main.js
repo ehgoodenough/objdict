@@ -16,6 +16,9 @@ export default Objdict
 Objdict.merge = function() {
     const omegadict = {}
     Array.from(arguments).forEach((alphadict) => {
+        if(alphadict == undefined) {
+            return
+        }
         if(alphadict instanceof Array) {
             alphadict = Objdict.from(alphadict)
         }
