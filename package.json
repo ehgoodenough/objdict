@@ -13,11 +13,11 @@
     "type": "git",
     "url": "https://github.com/ehgoodenough/objdict"
   },
-  "dependencies": {
-    "shortid": "^2.2.15"
-  },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.9"
   }
 }

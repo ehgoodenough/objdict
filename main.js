@@ -1,7 +1,7 @@
 // What is an object-based dictionary? It's any object with key-value pairs!
 // This is just a more primitive version of the ES2015 Maps.
 
-import shortid from "shortid"
+import {nanoid} from "nanoid"
 
 const Objdict = {}
 export default Objdict
@@ -73,7 +73,7 @@ Objdict.convert = function(alphalist, key = "key") {
     if(alphalist instanceof Array) {
         const omegadict = {}
         alphalist.forEach((value) => {
-            value[key] = value[key] || shortid.generate()
+            value[key] = value[key] || nanoid()
             omegadict[value[key]] = value
         })
         return omegadict
