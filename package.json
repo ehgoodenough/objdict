@@ -1,6 +1,6 @@
 {
   "name": "objdict",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "main.js",
   "description": "A library for object-based dictionaries.",
   "author": "Andrew Goodenough <@ehgoodenough>",
